@@ -1,0 +1,123 @@
+:root{
+  --romanceCol: hsl(321.67deg 64.4% 43.36%);
+  --actionCol: hsl(38.1deg 80.52% 61.2% / 80%);
+  --comedyCol: hsl(171.03deg 42.76% 69.18%);
+  --horrorCol: hsl(0deg 87.34% 16.26%);
+  --scifiCol: hsl(87.73deg 19.93% 60.98%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+.app_container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background: #8e9eab;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eef2f3, #8e9eab);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.react-chatbot-kit-chat-message-container {
+  background-color: #8e9eab;
+}
+
+.react-chatbot-kit-chat-bot-message {
+  background-color: rgb(190 211 219) !important;
+  color: black !important;
+}
+
+.react-chatbot-kit-user-chat-message {
+  background-color: rgb(190 211 219) !important;
+  color: black !important;
+}
+
+.react-chatbot-kit-chat-bot-message-arrow {
+  border-right: 8px solid rgb(190 211 219) !important;
+}
+
+.react-chatbot-kit-user-chat-message-arrow {
+  border-left: 8px solid rgb(190 211 219) !important;
+}
+
+.botAvatar {
+  display: grid;
+  place-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin-right: 0.5rem;
+  background-color: #c9e6ff;
+}
+
+.react-chatbot-kit-user-avatar-container {
+  background-color: #c9e6ff;
+  color: black;
+}
+
+.userAvatar {
+  margin-right: 0;
+  margin-left: 0.5rem;
+}
+
+.startBtn{
+  background-color: rgb(190 211 219);
+  margin-left: 3rem;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  word-wrap: break-word;
+}
+
+.flex button{
+  margin-left: unset;
+}
+
+.flex button:first-child{
+  margin-left: 2rem;
+}
+
+.singleBtn{
+  display: block;
+  margin: 1rem auto;
+}
+
+.actionCont{
+  background-color: var(--actionCol);
+  color: white;
+}
+
+.romanceCont{
+  background-color: var(--romanceCol);
+  color: white;
+}
+
+.comedyCont{
+  background-color: var(--comedyCol);
+  color: white;
+}
+
+.horrorCont{
+  background-color: var(--horrorCol);
+  color: white;
+}
+
+.scifiCont{
+  background-color: var(--scifiCol);
+  color: white;
+}
