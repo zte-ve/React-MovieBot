@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React-MovieBot/static/css/main.665c5d00.css",
+    "main.js": "/React-MovieBot/static/js/main.44dfa6f3.js",
+    "index.html": "/React-MovieBot/index.html",
+    "main.665c5d00.css.map": "/React-MovieBot/static/css/main.665c5d00.css.map",
+    "main.44dfa6f3.js.map": "/React-MovieBot/static/js/main.44dfa6f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.665c5d00.css",
+    "static/js/main.44dfa6f3.js"
+  ]
+}
